@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F69710DF2E573CB8006B3BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69710C92E573CB7006B3BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69710D02E573CB7006B3BF4;
+			remoteInfo = MetrenomeApp;
+		};
+		F69710E92E573CB8006B3BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69710C92E573CB7006B3BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69710D02E573CB7006B3BF4;
+			remoteInfo = MetrenomeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69710D12E573CB7006B3BF4 /* MetrenomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetrenomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69710DE2E573CB8006B3BF4 /* MetrenomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrenomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69710E82E573CB8006B3BF4 /* MetrenomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrenomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F69710D32E573CB7006B3BF4 /* MetrenomeApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetrenomeApp;
+			sourceTree = "<group>";
+		};
+		F69710E12E573CB8006B3BF4 /* MetrenomeAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetrenomeAppTests;
+			sourceTree = "<group>";
+		};
+		F69710EB2E573CB8006B3BF4 /* MetrenomeAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetrenomeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69710CE2E573CB7006B3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710DB2E573CB8006B3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710E52E573CB8006B3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69710C82E573CB7006B3BF4 = {
+			isa = PBXGroup;
+			children = (
+				F69710D32E573CB7006B3BF4 /* MetrenomeApp */,
+				F69710E12E573CB8006B3BF4 /* MetrenomeAppTests */,
+				F69710EB2E573CB8006B3BF4 /* MetrenomeAppUITests */,
+				F69710D22E573CB7006B3BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69710D22E573CB7006B3BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69710D12E573CB7006B3BF4 /* MetrenomeApp.app */,
+				F69710DE2E573CB8006B3BF4 /* MetrenomeAppTests.xctest */,
+				F69710E82E573CB8006B3BF4 /* MetrenomeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69710D02E573CB7006B3BF4 /* MetrenomeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69710F22E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeApp" */;
+			buildPhases = (
+				F69710CD2E573CB7006B3BF4 /* Sources */,
+				F69710CE2E573CB7006B3BF4 /* Frameworks */,
+				F69710CF2E573CB7006B3BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F69710D32E573CB7006B3BF4 /* MetrenomeApp */,
+			);
+			name = MetrenomeApp;
+			packageProductDependencies = (
+			);
+			productName = MetrenomeApp;
+			productReference = F69710D12E573CB7006B3BF4 /* MetrenomeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69710DD2E573CB8006B3BF4 /* MetrenomeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69710F52E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeAppTests" */;
+			buildPhases = (
+				F69710DA2E573CB8006B3BF4 /* Sources */,
+				F69710DB2E573CB8006B3BF4 /* Frameworks */,
+				F69710DC2E573CB8006B3BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69710E02E573CB8006B3BF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F69710E12E573CB8006B3BF4 /* MetrenomeAppTests */,
+			);
+			name = MetrenomeAppTests;
+			packageProductDependencies = (
+			);
+			productName = MetrenomeAppTests;
+			productReference = F69710DE2E573CB8006B3BF4 /* MetrenomeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69710E72E573CB8006B3BF4 /* MetrenomeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69710F82E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeAppUITests" */;
+			buildPhases = (
+				F69710E42E573CB8006B3BF4 /* Sources */,
+				F69710E52E573CB8006B3BF4 /* Frameworks */,
+				F69710E62E573CB8006B3BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69710EA2E573CB8006B3BF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F69710EB2E573CB8006B3BF4 /* MetrenomeAppUITests */,
+			);
+			name = MetrenomeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MetrenomeAppUITests;
+			productReference = F69710E82E573CB8006B3BF4 /* MetrenomeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69710C92E573CB7006B3BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F69710D02E573CB7006B3BF4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F69710DD2E573CB8006B3BF4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F69710D02E573CB7006B3BF4;
+					};
+					F69710E72E573CB8006B3BF4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F69710D02E573CB7006B3BF4;
+					};
+				};
+			};
+			buildConfigurationList = F69710CC2E573CB7006B3BF4 /* Build configuration list for PBXProject "MetrenomeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69710C82E573CB7006B3BF4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F69710D22E573CB7006B3BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69710D02E573CB7006B3BF4 /* MetrenomeApp */,
+				F69710DD2E573CB8006B3BF4 /* MetrenomeAppTests */,
+				F69710E72E573CB8006B3BF4 /* MetrenomeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69710CF2E573CB7006B3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710DC2E573CB8006B3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710E62E573CB8006B3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69710CD2E573CB7006B3BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710DA2E573CB8006B3BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69710E42E573CB8006B3BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69710E02E573CB8006B3BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69710D02E573CB7006B3BF4 /* MetrenomeApp */;
+			targetProxy = F69710DF2E573CB8006B3BF4 /* PBXContainerItemProxy */;
+		};
+		F69710EA2E573CB8006B3BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69710D02E573CB7006B3BF4 /* MetrenomeApp */;
+			targetProxy = F69710E92E573CB8006B3BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F69710F02E573CB8006B3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69710F12E573CB8006B3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69710F32E573CB8006B3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69710F42E573CB8006B3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F69710F62E573CB8006B3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetrenomeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetrenomeApp";
+			};
+			name = Debug;
+		};
+		F69710F72E573CB8006B3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetrenomeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetrenomeApp";
+			};
+			name = Release;
+		};
+		F69710F92E573CB8006B3BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetrenomeApp;
+			};
+			name = Debug;
+		};
+		F69710FA2E573CB8006B3BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.chrishenry.MetrenomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetrenomeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69710CC2E573CB7006B3BF4 /* Build configuration list for PBXProject "MetrenomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69710F02E573CB8006B3BF4 /* Debug */,
+				F69710F12E573CB8006B3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69710F22E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69710F32E573CB8006B3BF4 /* Debug */,
+				F69710F42E573CB8006B3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69710F52E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69710F62E573CB8006B3BF4 /* Debug */,
+				F69710F72E573CB8006B3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69710F82E573CB8006B3BF4 /* Build configuration list for PBXNativeTarget "MetrenomeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69710F92E573CB8006B3BF4 /* Debug */,
+				F69710FA2E573CB8006B3BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69710C92E573CB7006B3BF4 /* Project object */;
+}
